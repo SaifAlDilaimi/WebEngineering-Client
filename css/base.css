@@ -1,12 +1,14 @@
 body {
+  margin: 0;
+  padding: 0;
   color: #333;
   background-color: #eee;
   font: 1em/1.2 "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
 }
 .container {
-  max-width: 60em;
+  width: 100%;
   min-height: 800px;
-  margin: 0 auto;
+  margin: 0;
   background-color: #fff;
 }
 .header {
