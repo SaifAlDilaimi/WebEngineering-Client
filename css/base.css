@@ -30,17 +30,29 @@ body {
   list-style: none;
 }
 .header-heading {
-  padding: 1.5em 3em;
+  padding: 0.5em 0em;
 }
 .nav-bar {
   padding: 1em 3em;
 }
 .content {
-  width: 45.5em;
+  width: 79%;
   float: right;
 }
+.dynamic-content{
+  width: 100%;
+  padding: 5px;
+  float: left;
+}
+
+.title{
+  color: #003650;
+  font-weight: bold;
+  border-bottom: 1px solid #8dae10;
+}
+
 .operations {
-  width: 10em;
+  width: calc(100% - 80%);
   min-height: 800px;
   float: left;
   background-color: #CCCCCC;
@@ -65,4 +77,26 @@ body {
 .nav a:hover {
   color: white;
   background-color: #8dae10;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    /*background-color: #f1f1c1;*/
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+table th {
+    color: white;
+    background-color: black;
 }
